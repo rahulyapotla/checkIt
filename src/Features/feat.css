@@ -1,0 +1,63 @@
+.features-maindiv {
+  background-image: url("../images/Background\ Special.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* height: 100vh; */
+  overflow: hidden;
+}
+.feat-head-col {
+  display: flex;
+  justify-content: center;
+}
+.feat-head-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 3rem;
+  line-height: 70px;
+  color: #001449;
+  margin: 2% 0%;
+}
+
+.feat-box-col {
+  display: flex;
+  justify-content: center;
+}
+.feat-box {
+  width: 80%;
+  background: rgba(200, 252, 234, 0.62);
+  backdrop-filter: blur(250px);
+  border-radius: 70px;
+  margin-bottom: 5%;
+}
+.feat-img-col {
+  display: flex;
+  justify-content: center;
+}
+.feat-img {
+  width: 80%;
+}
+.feat-text-col {
+  display: flex;
+  justify-content: center;
+}
+.feat-text-para {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 1.8rem;
+  line-height: 35px;
+  text-align: center;
+  padding: 5% 0%;
+  color: #2a453d;
+}
+
+@media (max-width: 1200px){
+  .feat-box {
+    width: 100%;
+    background: rgba(200, 252, 234, 0.62);
+    backdrop-filter: blur(250px);
+    border-radius: 70px;
+    margin-bottom: 5%;
+  }
+}

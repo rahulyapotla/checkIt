@@ -1,0 +1,78 @@
+.containerMain {
+  width: calc(100vw-17px);
+  overflow-x: hidden !important;
+}
+
+.mainBody {
+  margin-bottom: 11vh;
+  align-items: center;
+}
+
+.LGTtext {
+  font: 700 9vh Roboto;
+  color: #518071;
+}
+
+.labelText {
+  margin-top: 1rem;
+  font: 300 2vh Roboto;
+  color: #518071;
+}
+
+.epsText {
+  font: 500 2vh Roboto;
+  color: #518071;
+}
+
+.rightBox {
+  margin-top: 11vh;
+  background-color: #518071;
+  width: 100%;
+  height: fit-content;
+  border-radius: 0vh 0vh 0vh 15vh;
+  padding: 5% 0%;
+  position: relative;
+}
+
+.getintouchText {
+  font: 700 6vh Roboto;
+  color: #ffffff;
+}
+
+.contactInput {
+  border-radius: 50px;
+  padding: 6px 15px;
+  border: none;
+  box-shadow: none !important;
+  color: #518071;
+  width: 100%;
+}
+
+.contactInput:focus {
+  outline: none;
+}
+
+.send {
+  margin-top: 4%;
+  padding: 2% 10%;
+  width: max-content;
+  border-radius: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.1s ease-in-out;
+  border: none !important;
+}
+
+.send:hover {
+  box-shadow: 0px 6px 19px rgba(29, 245, 155, 0.25);
+  transform: scale(1.1);
+}
+
+.send-text {
+  color: #518071;
+  font: 400 1.2rem Roboto;
+  margin-bottom: 0 !important;
+}

@@ -1,0 +1,84 @@
+.price-container {
+  width: calc(100vw-17px);
+  overflow-x: hidden !important;
+}
+
+.top-row-price {
+  margin-top: 15vh;
+  margin-bottom: 1%;
+}
+
+.fp {
+  font: 500 6vh Roboto;
+  color: #001449;
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.fps {
+  font: 300 2.5vh Roboto;
+  color: #01227e;
+  text-align: center;
+}
+
+.priceBox-col {
+  display: flex;
+}
+
+.firstCol{
+  justify-content: flex-end;
+}
+
+.secondCol{
+  justify-content: "center" ;
+}
+
+.thirdCol{
+  justify-content: flex-start;
+}
+
+.priceBox {
+  padding: 3%;
+  width: 70%;
+  height: min-content;
+  border-radius: 30px;
+  background: #ffffff;
+  border: 2px solid #0033be;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 19px rgba(0, 0, 0, 0.25);
+  color:#001449;
+  transition: all 0.1s ease-in-out;
+  margin: 5% 0%;
+}
+
+.priceBox:hover{
+    transform: scale(1.1);
+    background: #001449;
+    border: 6px solid #ffffff;
+    color: #ffffff;
+    box-shadow: 0px 12px 40px rgba(36, 39, 71, 0.25);
+}
+
+.priceBox:hover hr{
+    border-color: #ffffff;
+}
+
+.planType {
+  font: 400 3vh Roboto;
+  margin-bottom: 0 !important;
+}
+
+.typePrice{
+  font: 500 3.8vh Roboto;
+  margin-bottom: 0 !important;
+}
+
+.offerings{
+    font: 400 2vh Roboto; 
+}
+
+@media (max-width: 1200px){
+  .priceBox-col {
+    justify-content: center !important;
+  }
+}

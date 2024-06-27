@@ -1,0 +1,12 @@
+.home-nav {
+  margin: 0 20px;
+  color: #518071 !important;
+  font-size: 2vh;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Roboto";
+}
+.chq-logo {
+  height: 7vh;
+  margin: -15px auto;
+}

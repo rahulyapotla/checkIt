@@ -1,0 +1,55 @@
+.topRowHeading{
+    margin-top: 11vh;
+}
+
+.blog-container{
+    width: calc(100vw-17px);
+    overflow-x: hidden !important;
+}
+
+.gtkText{
+    font: 700 9vh Roboto;
+    color: #001449;
+}
+
+/* .topTextRight{
+    font: 500 3vh Roboto;
+    color: #001449;
+} */
+
+.tt{
+    font: 600 5vh Roboto;
+    color: #001449;
+    text-align: center;
+    margin: 2% 0% 2%;
+}
+
+.blogRow{
+    align-items: center;
+    margin-top: 1% 0%;
+}
+
+.imgCol{
+    display: flex;
+    justify-content: center;
+}
+
+.nameText{
+    font: 500 3.5vh Roboto;
+    color: #001449; 
+}
+
+.desig{
+    font: 400 2.5vh Roboto;
+    color: #001449;
+}
+
+.aboutSir{
+    font: 300 2.7vh Roboto;
+    color: #001449;
+}
+
+.blogRow img {
+    width: 70%;
+    margin-bottom: 5%;
+}

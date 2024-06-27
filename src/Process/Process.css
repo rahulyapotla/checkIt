@@ -1,0 +1,33 @@
+.process-head {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 550;
+  font-size: 6vh;
+  line-height: 70px;
+  color: #001449;
+  margin: 2% 0%;
+  text-align: center;
+}
+
+.level {
+  font: 300 1.5rem Roboto;
+  color: #518071;
+  margin-bottom: 0 !important;
+  margin-left: 5%;
+}
+
+.level-desc {
+  font: 500 2rem Roboto;
+  color: #001449;
+  margin: 4% 0%;
+}
+
+.level-points {
+  font: 300 1.3rem Roboto;
+  color: #001449;
+}
+
+.processImage{
+  width: 70%;
+  margin: 4% 0;
+}
